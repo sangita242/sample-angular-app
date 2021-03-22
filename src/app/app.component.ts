@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-sample-from';
+  // getUserValue(value: any){
+  //   console.warn(value)
+  // }
 }

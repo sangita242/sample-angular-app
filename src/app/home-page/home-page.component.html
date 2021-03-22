@@ -1,0 +1,19 @@
+<!-- <header>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header> -->
+
+<h1>Login Form</h1>
+<form #simpleForm="ngForm" (ngSubmit)="getUserValue(simpleForm.value)">
+  <input type="text" ngModel name="username" placeholder="enter username"><br><br>
+  <input type="password" ngModel name="password" placeholder="enter password"><br><br>
+  <input type="text" ngModel name="email" placeholder="enter email"><br><br>
+  <input type="text" ngModel name="id" placeholder="enter id"><br><br>
+  <button>Login</button>
+</form>
